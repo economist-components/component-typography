@@ -165,7 +165,7 @@
     "semantic-release": "^4.3.5",
     "stylelint": "^5.3.0",
     "stylelint-config-strict": "^4.0.0",
-    "validate-commit-msg": "^2.4.0",
+    "validate-commit-msg": "^2.6.0",
     "watchify": "^3.7.0"
   }
 }
