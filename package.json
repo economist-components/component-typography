@@ -126,7 +126,7 @@
     "@economist/provision-react-component": "1.7.3",
     "babel": "^5.8.34",
     "babel-polyfill": "^6.6.1",
-    "babelify": "^6.4.0",
+    "babelify": "^7.3.0",
     "browserify": "^13.0.0",
     "browserify-istanbul": "^1.0.0",
     "chai": "^3.5.0",
