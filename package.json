@@ -163,7 +163,7 @@
     "react-dom": "^0.14.8",
     "react": "^0.14.8",
     "semantic-release": "^4.3.5",
-    "stylelint": "^5.3.0",
+    "stylelint": "^6.2.1",
     "stylelint-config-strict": "^4.0.0",
     "validate-commit-msg": "^2.4.0",
     "watchify": "^3.7.0"
