@@ -117,7 +117,7 @@
     ]
   },
   "dependencies": {
-    "react": "^0.14.8||^15.0.0",
+    "react": "^15.1.0",
     "react-tab-panel": "^2.2.0"
   },
   "devDependencies": {
