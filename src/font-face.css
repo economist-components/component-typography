@@ -140,20 +140,3 @@
     url('/assets/econsans-cd-bd-it.woff2') format('woff2'),
     url('/assets/econsans-cd-bd-it.woff') format('woff');
 }
-
-@font-face {
-  font-family: EconSansCnd;
-  font-weight: 800;
-  src:
-    url('/assets/econsans-cd-xb.woff2') format('woff2'),
-    url('/assets/econsans-cd-xb.woff') format('woff');
-}
-
-@font-face {
-  font-family: EconSansCnd;
-  font-style: italic;
-  font-weight: 800;
-  src:
-    url('/assets/econsans-cd-xb-it.woff2') format('woff2'),
-    url('/assets/econsans-cd-xb-it.woff') format('woff');
-}
