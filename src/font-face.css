@@ -5,40 +5,40 @@
   font-family: EconSans;
   font-weight: 300;
   src:
-    url('/assets/ecosans-lt.woff2') format('woff2'),
-    url('/assets/ecosans-lt.woff') format('woff');
+    url('/assets/econsans-lt.woff2') format('woff2'),
+    url('/assets/econsans-lt.woff') format('woff');
 }
 
 @font-face {
   font-family: EconSans;
   font-style: normal;
   src:
-    url('/assets/ecosans-rg.woff2') format('woff2'),
-    url('/assets/ecosans-rg.woff') format('woff');
+    url('/assets/econsans-rg.woff2') format('woff2'),
+    url('/assets/econsans-rg.woff') format('woff');
 }
 
 @font-face {
   font-family: EconSans;
   font-style: italic;
   src:
-    url('/assets/ecosans-it.woff2') format('woff2'),
-    url('/assets/ecosans-it.woff') format('woff');
+    url('/assets/econsans-it.woff2') format('woff2'),
+    url('/assets/econsans-it.woff') format('woff');
 }
 
 @font-face {
   font-family: EconSans;
   font-weight: 500;
   src:
-    url('/assets/ecosans-md.woff2') format('woff2'),
-    url('/assets/ecosans-md.woff') format('woff');
+    url('/assets/econsans-md.woff2') format('woff2'),
+    url('/assets/econsans-md.woff') format('woff');
 }
 
 @font-face {
   font-family: EconSans;
   font-weight: 700;
   src:
-    url('/assets/ecosans-bd.woff2') format('woff2'),
-    url('/assets/ecosans-bd.woff') format('woff');
+    url('/assets/econsans-bd.woff2') format('woff2'),
+    url('/assets/econsans-bd.woff') format('woff');
 }
 
 @font-face {
