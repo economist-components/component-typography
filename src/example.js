@@ -4,13 +4,19 @@ import TabPanel from 'react-tab-panel';
 
 const fonts = [
   [ 'sans', '300', '', 'EconSans' ],
-  [ 'sans', '', '', 'EconSans' ],
+  [ 'sans', '', 'normal', 'EconSans' ],
+  [ 'sans', '', 'italic', 'EconSans' ],
   [ 'sans', '500', '', 'EconSans' ],
   [ 'sans', '700', '', 'EconSans' ],
-  [ 'sans', '', 'italic', 'EconSans' ],
-  [ 'serif', '', '', 'MiloSerifPro' ],
-  [ 'serif', '500', '', 'MiloSerifPro' ],
+  [ 'serif', '', 'normal', 'MiloSerifPro' ],
   [ 'serif', '', 'italic', 'MiloSerifPro' ],
+  [ 'serif', '500', '', 'MiloSerifPro' ],
+  [ 'serif', '700', '', 'MiloSerifPro' ],
+  [ 'sans', '300', '', 'EconSansCnd' ],
+  [ 'sans', '', 'normal', 'EconSansCnd' ],
+  [ 'sans', '', 'italic', 'EconSansCnd' ],
+  [ 'sans', '500', '', 'EconSansCnd' ],
+  [ 'sans', '700', '', 'EconSansCnd' ],
 ];
 const panels = fonts.map((fontFamily) => {
   const [ kind, modifier, fontStyle, family ] = fontFamily;

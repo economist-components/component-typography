@@ -34,7 +34,17 @@
     "assets/milo-rg.woff",
     "assets/milo-rg.woff2",
     "assets/milo-bd.woff",
-    "assets/milo-bd.woff2"
+    "assets/milo-bd.woff2",
+    "assets/econsans-cd-li.woff",
+    "assets/econsans-cd-li.woff2",
+    "assets/econsans-cd-rg.woff",
+    "assets/econsans-cd-rg.woff2",
+    "assets/econsans-cd-it.woff",
+    "assets/econsans-cd-it.woff2",
+    "assets/econsans-cd-md.woff",
+    "assets/econsans-cd-md.woff2",
+    "assets/econsans-cd-bd.woff",
+    "assets/econsans-cd-bd.woff2"
   ],
   "directories": {
     "lib": "lib",
