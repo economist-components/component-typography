@@ -3,157 +3,157 @@
 
 @font-face {
   font-family: EconSans;
+  font-display: swap;
   font-weight: 300;
   src:
     url('/assets/econsans-subset-lt.woff2') format('woff2'),
     url('/assets/econsans-subset-lt.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSans;
+  font-display: swap;
   font-style: normal;
   src:
     url('/assets/econsans-subset-rg.woff2') format('woff2'),
     url('/assets/econsans-subset-rg.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSans;
+  font-display: swap;
   font-style: italic;
   src:
     url('/assets/econsans-subset-it.woff2') format('woff2'),
     url('/assets/econsans-subset-it.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSans;
+  font-display: swap;
   font-weight: 500;
   src:
     url('/assets/econsans-subset-md.woff2') format('woff2'),
     url('/assets/econsans-subset-md.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSans;
+  font-display: swap;
   font-weight: 700;
   src:
     url('/assets/econsans-subset-bd.woff2') format('woff2'),
     url('/assets/econsans-subset-bd.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: MiloSerifPro;
+  font-display: swap;
   font-style: normal;
   src:
     url('/assets/milo-subset-rg.woff2') format('woff2'),
     url('/assets/milo-subset-rg.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: MiloSerifPro;
+  font-display: swap;
   font-style: italic;
   src:
     url('/assets/milo-subset-it.woff2') format('woff2'),
     url('/assets/milo-subset-it.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: MiloSerifPro;
+  font-display: swap;
   font-weight: 500;
   src:
     url('/assets/milo-subset-md.woff2') format('woff2'),
     url('/assets/milo-subset-md.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: MiloSerifPro;
+  font-display: swap;
   font-weight: 700;
   src:
     url('/assets/milo-subset-bd.woff2') format('woff2'),
     url('/assets/milo-subset-bd.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSansCnd;
+  font-display: swap;
   font-weight: 300;
   src:
     url('/assets/econsans-subset-cd-li.woff2') format('woff2'),
     url('/assets/econsans-subset-cd-li.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSansCnd;
   font-style: italic;
+  font-display: swap;
   font-weight: 300;
   src:
     url('/assets/econsans-subset-cd-li-it.woff2') format('woff2'),
     url('/assets/econsans-subset-cd-li-it.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSansCnd;
+  font-display: swap;
   font-weight: normal;
   src:
     url('/assets/econsans-subset-cd-rg.woff2') format('woff2'),
     url('/assets/econsans-subset-cd-rg.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSansCnd;
   font-style: italic;
+  font-display: swap;
   font-weight: normal;
   src:
     url('/assets/econsans-subset-cd-it.woff2') format('woff2'),
     url('/assets/econsans-subset-cd-it.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSansCnd;
+  font-display: swap;
   font-weight: 500;
   src:
     url('/assets/econsans-subset-cd-md.woff2') format('woff2'),
     url('/assets/econsans-subset-cd-md.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSansCnd;
   font-style: italic;
+  font-display: swap;
   font-weight: 500;
   src:
     url('/assets/econssans-cd-md-it.woff2') format('woff2'),
     url('/assets/econssans-cd-md-it.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSansCnd;
+  font-display: swap;
   font-weight: 700;
   src:
     url('/assets/econsans-subset-cd-bd.woff2') format('woff2'),
     url('/assets/econsans-subset-cd-bd.woff') format('woff');
-  font-display: swap;
 }
 
 @font-face {
   font-family: EconSansCnd;
   font-style: italic;
+  font-display: swap;
   font-weight: 700;
   src:
     url('/assets/econsans-subset-cd-bd-it.woff2') format('woff2'),
     url('/assets/econsans-subset-cd-bd-it.woff') format('woff');
-  font-display: swap;
 }
