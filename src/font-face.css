@@ -2,8 +2,8 @@
 /* too many components refer to EconSans */
 
 @font-face {
-  font-family: EconSans;
   font-display: swap;
+  font-family: EconSans;
   font-weight: 300;
   src:
     url('/assets/econsans-subset-lt.woff2') format('woff2'),
@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: EconSans;
   font-display: swap;
+  font-family: EconSans;
   font-style: normal;
   src:
     url('/assets/econsans-subset-rg.woff2') format('woff2'),
@@ -20,8 +20,8 @@
 }
 
 @font-face {
-  font-family: EconSans;
   font-display: swap;
+  font-family: EconSans;
   font-style: italic;
   src:
     url('/assets/econsans-subset-it.woff2') format('woff2'),
@@ -29,8 +29,8 @@
 }
 
 @font-face {
-  font-family: EconSans;
   font-display: swap;
+  font-family: EconSans;
   font-weight: 500;
   src:
     url('/assets/econsans-subset-md.woff2') format('woff2'),
@@ -38,8 +38,8 @@
 }
 
 @font-face {
-  font-family: EconSans;
   font-display: swap;
+  font-family: EconSans;
   font-weight: 700;
   src:
     url('/assets/econsans-subset-bd.woff2') format('woff2'),
@@ -47,8 +47,8 @@
 }
 
 @font-face {
-  font-family: MiloSerifPro;
   font-display: swap;
+  font-family: MiloSerifPro;
   font-style: normal;
   src:
     url('/assets/milo-subset-rg.woff2') format('woff2'),
@@ -56,8 +56,8 @@
 }
 
 @font-face {
-  font-family: MiloSerifPro;
   font-display: swap;
+  font-family: MiloSerifPro;
   font-style: italic;
   src:
     url('/assets/milo-subset-it.woff2') format('woff2'),
@@ -65,8 +65,8 @@
 }
 
 @font-face {
-  font-family: MiloSerifPro;
   font-display: swap;
+  font-family: MiloSerifPro;
   font-weight: 500;
   src:
     url('/assets/milo-subset-md.woff2') format('woff2'),
@@ -74,8 +74,8 @@
 }
 
 @font-face {
-  font-family: MiloSerifPro;
   font-display: swap;
+  font-family: MiloSerifPro;
   font-weight: 700;
   src:
     url('/assets/milo-subset-bd.woff2') format('woff2'),
@@ -83,8 +83,8 @@
 }
 
 @font-face {
-  font-family: EconSansCnd;
   font-display: swap;
+  font-family: EconSansCnd;
   font-weight: 300;
   src:
     url('/assets/econsans-subset-cd-li.woff2') format('woff2'),
@@ -93,8 +93,8 @@
 
 @font-face {
   font-family: EconSansCnd;
-  font-style: italic;
   font-display: swap;
+  font-style: italic;
   font-weight: 300;
   src:
     url('/assets/econsans-subset-cd-li-it.woff2') format('woff2'),
@@ -102,8 +102,8 @@
 }
 
 @font-face {
-  font-family: EconSansCnd;
   font-display: swap;
+  font-family: EconSansCnd;
   font-weight: normal;
   src:
     url('/assets/econsans-subset-cd-rg.woff2') format('woff2'),
@@ -112,8 +112,8 @@
 
 @font-face {
   font-family: EconSansCnd;
-  font-style: italic;
   font-display: swap;
+  font-style: italic;
   font-weight: normal;
   src:
     url('/assets/econsans-subset-cd-it.woff2') format('woff2'),
@@ -121,8 +121,8 @@
 }
 
 @font-face {
-  font-family: EconSansCnd;
   font-display: swap;
+  font-family: EconSansCnd;
   font-weight: 500;
   src:
     url('/assets/econsans-subset-cd-md.woff2') format('woff2'),
@@ -131,8 +131,8 @@
 
 @font-face {
   font-family: EconSansCnd;
-  font-style: italic;
   font-display: swap;
+  font-style: italic;
   font-weight: 500;
   src:
     url('/assets/econssans-cd-md-it.woff2') format('woff2'),
@@ -140,8 +140,8 @@
 }
 
 @font-face {
-  font-family: EconSansCnd;
   font-display: swap;
+  font-family: EconSansCnd;
   font-weight: 700;
   src:
     url('/assets/econsans-subset-cd-bd.woff2') format('woff2'),
@@ -150,8 +150,8 @@
 
 @font-face {
   font-family: EconSansCnd;
-  font-style: italic;
   font-display: swap;
+  font-style: italic;
   font-weight: 700;
   src:
     url('/assets/econsans-subset-cd-bd-it.woff2') format('woff2'),
