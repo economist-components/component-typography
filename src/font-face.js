@@ -1,4 +1,4 @@
-/* stylelint-disable value-keyword-case */
+export default `/* stylelint-disable value-keyword-case */
 /* too many components refer to EconSans */
 
 /* Primary subset fonts (aA-zZ 0-9 etc). */
@@ -309,3 +309,4 @@
     url('/assets/milo-smallcaps-bd.woff2') format('woff2'),
     url('/assets/milo-smallcaps-bd.woff') format('woff');
 }
+`;
