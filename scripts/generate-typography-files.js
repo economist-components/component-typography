@@ -3,7 +3,7 @@ require('babel-register')({
 });
 const nodeFS = require('fs');
 const path = require('path');
-const getCssVarables = require('./get-css-varables').default;
+const getCssVariables = require('./get-css-variables').default;
 const typography = require('../src/typography.js').default;
 const fontFamily = require('../src/font-family.js').default;
 const fontFace = require('../src/font-face').default;
@@ -13,11 +13,11 @@ const typographyCSS = `/* stylelint-disable custom-property-pattern, number-max-
  */
 
 :root {
-${ getCssVarables(fontFamily)
+${ getCssVariables(fontFamily)
   .map((line) => `  ${ line }`)
   .join('\n')
 }
-${ getCssVarables(typography)
+${ getCssVariables(typography)
   .map((line) => `  ${ line }`)
   .join('\n')
 }
@@ -41,15 +41,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }`;
-
 const LIB_DIR = path.resolve(process.env.npm_package_directories_lib || 'lib');
-nodeFS.writeFile(path.join(LIB_DIR, 'typography.css'), typographyCSS, (fileWriteError) => {
-  if (fileWriteError) {
-    throw fileWriteError;
-  }
-});
-nodeFS.writeFile(path.join(LIB_DIR, 'font-face.css'), fontFace, (fileWriteError) => {
-  if (fileWriteError) {
-    throw fileWriteError;
-  }
-});
+function replaceRelativePaths(cssRules, domain) {
+  return cssRules.replace(/url\(['"]?([^'")]*)['"]?\)/g, (str, assetPath) => `url('${ domain }${ assetPath }')`);
+}
+const fontFaceAbsolute = replaceRelativePaths(fontFace, 'https://www.economist.com');
+function writeFileToLib(fileName, body) {
+  nodeFS.writeFile(path.join(LIB_DIR, fileName), body, (fileWriteError) => {
+    if (fileWriteError) {
+      throw fileWriteError;
+    }
+  });
+}
+
+writeFileToLib('typography.css', typographyCSS);
+writeFileToLib('font-face.css', fontFace);
+writeFileToLib('font-face-absolute.css', fontFaceAbsolute);
+writeFileToLib('font-face-absolute.js', `exports.default =  \`${ fontFaceAbsolute }\``);

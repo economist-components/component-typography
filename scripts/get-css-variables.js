@@ -3,7 +3,7 @@
  * @param rules
  * @returns {*}
  */
-function getCssVarables(rules) {
+function getCssVariables(rules) {
   if (typeof rules === 'object') {
     if (rules.prefix) {
       return Object.keys(rules)
@@ -13,7 +13,7 @@ function getCssVarables(rules) {
     }
     return Object.keys(rules)
       .reduce((res, key) => {
-        const variables = getCssVarables(rules[key]);
+        const variables = getCssVariables(rules[key]);
         if (variables && variables.length) {
           res.push(...variables);
         }
@@ -22,4 +22,4 @@ function getCssVarables(rules) {
   }
   return [];
 }
-export default getCssVarables;
+export default getCssVariables;
