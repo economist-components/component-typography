@@ -2,6 +2,18 @@
 
 Provides typography postCSS variables for other components to use.
 
+# Provided files
+
+* `lib/font-face.css` - font faces with relative paths
+* `lib/font-face.js` - font faces with relative paths
+* `lib/font-face-absolute.css` - font faces with absolute paths
+* `lib/font-face-absolute.js`- font faces with absolute paths
+* `lib/font-family.js` - JS variables for font families
+* `lib/font-family.css` - CSS variables for font families
+* `lib/typography.js` - JS variables for typography
+* `lib/typography.css` - CSS variables for typography
+
+
 # Variables we have around here
 
 
