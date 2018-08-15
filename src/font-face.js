@@ -52,6 +52,7 @@ export default `/* stylelint-disable value-keyword-case */
   font-display: swap;
   font-family: MiloSerifPro;
   font-style: normal;
+  font-weight: 400;
   src:
     url('/assets/milo-primary-subset-rg.woff2') format('woff2'),
     url('/assets/milo-primary-subset-rg.woff') format('woff');
@@ -61,6 +62,7 @@ export default `/* stylelint-disable value-keyword-case */
   font-display: swap;
   font-family: MiloSerifPro;
   font-style: italic;
+  font-weight: 500;
   src:
     url('/assets/milo-primary-subset-it.woff2') format('woff2'),
     url('/assets/milo-primary-subset-it.woff') format('woff');
@@ -69,6 +71,7 @@ export default `/* stylelint-disable value-keyword-case */
 @font-face {
   font-display: swap;
   font-family: MiloSerifPro;
+  font-style: normal;
   font-weight: 500;
   src:
     url('/assets/milo-primary-subset-md.woff2') format('woff2'),
@@ -78,10 +81,31 @@ export default `/* stylelint-disable value-keyword-case */
 @font-face {
   font-display: swap;
   font-family: MiloSerifPro;
+  font-style: italic;
+  font-weight: 500;
+  src:
+    url('/assets/milo-primary-subset-md-it.woff2') format('woff2'),
+    url('/assets/milo-primary-subset-md-it.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: MiloSerifPro;
+  font-style: normal;
   font-weight: 700;
   src:
     url('/assets/milo-primary-subset-bd.woff2') format('woff2'),
     url('/assets/milo-primary-subset-bd.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: MiloSerifPro;
+  font-style: italic;
+  font-weight: 700;
+  src:
+    url('/assets/milo-primary-subset-bd-it.woff2') format('woff2'),
+    url('/assets/milo-primary-subset-bd-it.woff') format('woff');
 }
 
 /* Condensed econsans used in charts and infographics. */
@@ -183,6 +207,7 @@ export default `/* stylelint-disable value-keyword-case */
   font-display: swap;
   font-family: MiloSerifProSec;
   font-style: normal;
+  font-weight: 400;
   src:
     url('/assets/milo-secondary-subset-rg.woff2') format('woff2'),
     url('/assets/milo-secondary-subset-rg.woff') format('woff');
@@ -192,6 +217,7 @@ export default `/* stylelint-disable value-keyword-case */
   font-display: swap;
   font-family: MiloSerifProSec;
   font-style: italic;
+  font-weight: 400;
   src:
     url('/assets/milo-secondary-subset-it.woff2') format('woff2'),
     url('/assets/milo-secondary-subset-it.woff') format('woff');
@@ -200,6 +226,7 @@ export default `/* stylelint-disable value-keyword-case */
 @font-face {
   font-display: swap;
   font-family: MiloSerifProSec;
+  font-style: normal;
   font-weight: 500;
   src:
     url('/assets/milo-secondary-subset-md.woff2') format('woff2'),
@@ -209,10 +236,31 @@ export default `/* stylelint-disable value-keyword-case */
 @font-face {
   font-display: swap;
   font-family: MiloSerifProSec;
+  font-style: italic;
+  font-weight: 500;
+  src:
+    url('/assets/milo-secondary-subset-md-it.woff2') format('woff2'),
+    url('/assets/milo-secondary-subset-md-it.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: MiloSerifProSec;
+  font-style: normal;
   font-weight: 700;
   src:
     url('/assets/milo-secondary-subset-bd.woff2') format('woff2'),
     url('/assets/milo-secondary-subset-bd.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: MiloSerifProSec;
+  font-style: italic;
+  font-weight: 700;
+  src:
+    url('/assets/milo-secondary-subset-bd-it.woff2') format('woff2'),
+    url('/assets/milo-secondary-subset-bd-it.woff') format('woff');
 }
 
 /* Condensed econsans used in charts and infographics. */
@@ -269,6 +317,7 @@ export default `/* stylelint-disable value-keyword-case */
   font-display: swap;
   font-family: MiloSerifProSmallCaps;
   font-style: normal;
+  font-weight: 400;
   src:
     url('/assets/milo-smallcaps-rg.woff2') format('woff2'),
     url('/assets/milo-smallcaps-rg.woff') format('woff');
@@ -278,6 +327,7 @@ export default `/* stylelint-disable value-keyword-case */
   font-display: swap;
   font-family: MiloSerifProSmallCaps;
   font-style: italic;
+  font-weight: 400;
   src:
     url('/assets/milo-smallcaps-it.woff2') format('woff2'),
     url('/assets/milo-smallcaps-it.woff') format('woff');
@@ -286,15 +336,7 @@ export default `/* stylelint-disable value-keyword-case */
 @font-face {
   font-display: swap;
   font-family: MiloSerifProSmallCaps;
-  font-weight: 300;
-  src:
-    url('/assets/milo-smallcaps-li.woff2') format('woff2'),
-    url('/assets/milo-smallcaps-li.woff') format('woff');
-}
-
-@font-face {
-  font-display: swap;
-  font-family: MiloSerifProSmallCaps;
+  font-style: normal;
   font-weight: 500;
   src:
     url('/assets/milo-smallcaps-md.woff2') format('woff2'),
@@ -304,9 +346,30 @@ export default `/* stylelint-disable value-keyword-case */
 @font-face {
   font-display: swap;
   font-family: MiloSerifProSmallCaps;
+  font-style: italic;
+  font-weight: 500;
+  src:
+    url('/assets/milo-smallcaps-md-it.woff2') format('woff2'),
+    url('/assets/milo-smallcaps-md-it.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: MiloSerifProSmallCaps;
+  font-style: normal;
   font-weight: 700;
   src:
     url('/assets/milo-smallcaps-bd.woff2') format('woff2'),
     url('/assets/milo-smallcaps-bd.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: MiloSerifProSmallCaps;
+  font-style: italic;
+  font-weight: 700;
+  src:
+    url('/assets/milo-smallcaps-bd-it.woff2') format('woff2'),
+    url('/assets/milo-smallcaps-bd-it.woff') format('woff');
 }
 `;
