@@ -1,6 +1,6 @@
 const fontFamily = {
-  sans: '\'EconSansOS\', -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Helvetica, Arial, sans-serif,',
-  serif: '\'MiloTE\', Constantia, \'Lucida Bright\', Lucidabright, \'Lucida Serif\', Lucida, \'DejaVu Serif\', \'Bitstream Vera Serif\', \'Liberation Serif\', Georgia, serif',
+  sans: '\'EconSansOS\', \'EconSansOSSec\', -apple-system, BlinkMacSystemFont, \'Segoe UI\', Roboto, Helvetica, Arial, sans-serif,',
+  serif: '\'MiloTE\', \'MiloTESec\', Constantia, \'Lucida Bright\', Lucidabright, \'Lucida Serif\', Lucida, \'DejaVu Serif\', \'Bitstream Vera Serif\', \'Liberation Serif\', Georgia, serif',
   _: {
     // for backwards compatibility only
     prefix: '--fontfamily',
