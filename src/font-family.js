@@ -1,4 +1,4 @@
-const sans = [
+const systemSans = [
   '-apple-system',
   'BlinkMacSystemFont',
   '\'Segoe UI\'',
@@ -8,7 +8,7 @@ const sans = [
   'sans-serif',
 ].join(', ');
 
-const serif = [
+const systemSerif = [
   'Constantia',
   '\'Lucida Bright\'',
   'Lucidabright',
@@ -22,17 +22,17 @@ const serif = [
 ].join(', ');
 
 const fontFamily = {
-  sans: `\'EconSansOS\', '\'EconSansOSSec\', ${ sans }`,
-  serif: `\'MiloTE\', \'MiloTESec\', ${ serif }`,
+  sans: `\'EconSansOS\', '\'EconSansOSSec\', ${ systemSans }`,
+  serif: `\'MiloTE\', \'MiloTESec\', ${ systemSerif }`,
   _: {
     // for backwards compatibility only
     prefix: '--fontfamily',
-    'sans-default': `\'EconSansOS\', '\'EconSansOSSec\', ${ sans }`,
+    'sans-default': `\'EconSansOS\', '\'EconSansOSSec\', ${ systemSans }`,
     'sans': 'var(--fontfamily-sans-custom), var(--fontfamily-sans-default)',
-    'serif-default': `\'MiloTE\', \'MiloTESec\', ${ serif }`,
+    'serif-default': `\'MiloTE\', \'MiloTESec\', ${ systemSerif }`,
     'serif': 'var(--fontfamily-serif-custom), var(--fontfamily-serif-default)',
-    'sans-condensed-default': `\'EconSansCnd\', \'EconSansCndSec\', ${ sans }`,
-    'smallcaps-serif-default': `\'MiloTESC\', ${ serif }`,
+    'sans-condensed-default': `\'EconSansCnd\', \'EconSansCndSec\', ${ systemSans }`,
+    'smallcaps-serif-default': `\'MiloTESC\', ${ systemSerif }`,
   },
 };
 export default fontFamily;
