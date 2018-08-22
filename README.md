@@ -4,23 +4,18 @@ Provides typography postCSS variables for other components to use.
 
 # Provided files
 
-* `lib/font-face.css` - font faces with relative paths
 * `lib/font-face.js` - font faces with relative paths
-* `lib/font-face-absolute.css` - font faces with absolute paths
-* `lib/font-face-absolute.js`- font faces with absolute paths
 * `lib/font-family.js` - JS variables for font families
-* `lib/font-family.css` - CSS variables for font families
 * `lib/typography.js` - JS variables for typography
-* `lib/typography.css` - CSS variables for typography
 
+# Variables
 
-# Variables we have around here
+## Font family
 
-
-## `--fontfamily-display` and `--fontfamily-body`
-
-By using `var(--fontfamily-display)` and `var(--fontfamily-body)`, respectively, you will get a serif (Milo), or a sans-serif font (Halifax), and their respective fallback fonts. By standardizing this we enable future changes to the main sans-serif and serif fonts of the website to be much simpler to perform, besides making it easier to provide font fallbacks.
-
+ * `--fontfamily-sans-default`: Econ Sans OS (primary and secondary subsets)
+ * `--fontfamily-serif-default`: Milo TE (primary and secondary subsets)
+ * `--fontfamily-sans-condensed-default`: Econ Sans Condensed (primary and secondary subsets)
+ * `--fontfamily-smallcaps-serif-default`: Milo TE small caps
 
 ## `text-size-step-X`
 
