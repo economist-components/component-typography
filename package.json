@@ -210,7 +210,7 @@
     "@economist/doc-pack": "^1.0.7",
     "@economist/provision-react-component": "3.0.3",
     "babel-cli": "^6.6.5",
-    "babel-core": "^6.7.4",
+    "babel-core": "^6.26.3",
     "babel-polyfill": "^6.8.0",
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-es2015-loose": "^7.0.0",
@@ -233,8 +233,8 @@
     "isparta": "^4.0.0",
     "istanbul": "^0.4.3",
     "karma": "^0.13.22",
-    "karma-browserify": "^5.0.5",
-    "karma-coverage": "^1.0.0",
+    "karma-browserify": "^5.3.0",
+    "karma-coverage": "^1.1.2",
     "karma-mocha": "^0.2.2",
     "karma-mocha-reporter": "^2.0.3",
     "karma-phantomjs-launcher": "^1.0.0",
@@ -244,7 +244,7 @@
     "mocha": "^2.4.5",
     "npm-assets": "^0.1.1",
     "npm-run-all": "^2.1.0",
-    "phantomjs-prebuilt": "^2.1.7",
+    "phantomjs-prebuilt": "^2.1.16",
     "postcss-cli": "^2.5.2",
     "postcss-cssnext": "^2.5.2",
     "postcss-import": "^8.1.2",
@@ -259,6 +259,6 @@
     "stylelint-config-strict": "^5.0.0",
     "travis-after-all": "^1.4.4",
     "validate-commit-msg": "^2.6.1",
-    "watchify": "^3.7.0"
+    "watchify": "^3.11.0"
   }
 }
