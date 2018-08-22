@@ -19,7 +19,7 @@ Provides typography postCSS variables for other components to use.
 
 ## `text-size-step-X`
 
-(Where X is a number from `-2` to `7`)
+(Where `X` is a number from `-2` to `7`)
 
 These variables contain a font-size in  `em`s, incrementing in a [modular scale](http://www.modularscale.com/?20&px&1.125&web&text) (a Major Second scale, or 1.125). Use these to calculate values for `font-size`.
 
