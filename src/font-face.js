@@ -188,7 +188,7 @@ export default `/* stylelint-disable value-keyword-case */
   font-display: swap;
   font-family: MiloTE;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   src:
     url('/assets/milo-primary-subset-it.woff2') format('woff2'),
     url('/assets/milo-primary-subset-it.woff') format('woff');
