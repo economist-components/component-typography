@@ -27,7 +27,7 @@ module.exports = function configureKarma(config) {
     SauceSafariLatest: {
       base: 'SauceLabs',
       browserName: 'Safari',
-      platform: 'Mac 10.9',
+      platform: 'macOS 10.13',
     },
     SauceInternetExplorerLatest: {
       base: 'SauceLabs',
