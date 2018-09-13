@@ -31,7 +31,8 @@ const fontFamily = {
     'sans': 'var(--fontfamily-sans-custom, var(--fontfamily-sans-default))',
     'serif-default': `\'MiloTE\', \'MiloTESec\', ${ systemSerif }`,
     'serif': 'var(--fontfamily-serif-custom, var(--fontfamily-serif-default))',
-    'sans-condensed-default': `\'EconSansCnd\', \'EconSansCndSec\', ${ systemSans }`,
+    'sans-condensed-default': `\'EconSansCnd\', \'EconSansCndSec\', \'Arial Narrow\', ${ systemSans }`,
+    'sans-lining-default': `\'EconSansLin\', ${ systemSans }`,
     'smallcaps-serif-default': `\'MiloTESC\', ${ systemSerif }`,
   },
 };
