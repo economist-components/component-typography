@@ -81,8 +81,9 @@ Includes accents and additional characters / glyphs:
 ## Font family
 
  * `--fontfamily-sans-default`: Econ Sans OS (primary and secondary subsets)
- * `--fontfamily-serif-default`: Milo TE (primary and secondary subsets)
  * `--fontfamily-sans-condensed-default`: Econ Sans Condensed (primary and secondary subsets)
+ * `--fontfamily-sans-lining-default`: Econ Sans lining figures
+ * `--fontfamily-serif-default`: Milo TE (primary and secondary subsets)
  * `--fontfamily-smallcaps-serif-default`: Milo TE small caps
 
 ## `text-size-step-X`
