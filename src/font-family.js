@@ -33,7 +33,7 @@ const fontFamily = {
     'serif': 'var(--fontfamily-serif-custom, var(--fontfamily-serif-default))',
     'sans-condensed-default': `\'EconSansCnd\', \'EconSansCndSec\', \'Arial Narrow\', ${ systemSans }`,
     'sans-lining-default': `\'EconSansLin\', ${ systemSans }`,
-    'smallcaps-serif-default': `\'MiloTESC\', ${ systemSerif }`,
+    'serif-smallcaps-default': `\'MiloTESC\', ${ systemSerif }`,
   },
 };
 export default fontFamily;
