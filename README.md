@@ -12,7 +12,7 @@ Provides typography postCSS variables for other components to use.
 
 ## Available weights and styles
 ### Econ Sans OS
-Primary subset (aA-zZ 0-9 etc)
+Primary subset (aA-zZ 0-9 etc)  
 Secondary subset (all other characters)
   * Econ Sans OS Light (normal, 300)
   * Econ Sans OS Light Italic (italic, 300)
@@ -24,7 +24,7 @@ Secondary subset (all other characters)
   * Econ Sans OS Bold Italic (italic, 700)
 
 ### Econ Sans Condensed
-Primary subset (aA-zZ 0-9 etc)
+Primary subset (aA-zZ 0-9 etc)  
 Secondary subset (all other characters)
   * Econ Sans Condensed Light (normal, 300)
   * Econ Sans Condensed Light Italic (italic, 300)
@@ -36,7 +36,7 @@ Secondary subset (all other characters)
   * Econ Sans Condensed Bold Italic (italic, 700)
 
 ### Econ Sans (lining figures, 0-9 only)
-  * Econ Sans Light (normal, 300)
+  * Econ Sans Light (normal, 300)  
   * Econ Sans Light Italic (italic, 300)
   * Econ Sans Regular (normal, 400)
   * Econ Sans Italic (italic, 400)
@@ -46,7 +46,7 @@ Secondary subset (all other characters)
   * Econ Sans Bold Italic (italic, 700)
 
 ### Milo TE
-Primary subset (aA-zZ 0-9 etc)
+Primary subset (aA-zZ 0-9 etc)  
 Secondary subset (all other characters)
   * Milo TE Regular (normal, 400)
   * Milo TE Italic (italic, 400)
