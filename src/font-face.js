@@ -431,6 +431,92 @@ export default `/* stylelint-disable value-keyword-case */
 }
 
 /**
+ * Econ Sans (lining figures)
+*/
+
+/* Subset fonts (0-9). */
+
+@font-face {
+  font-display: swap;
+  font-family: EconSansLin;
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url('/assets/econsans-lining-subset-li.woff2') format('woff2'),
+    url('/assets/econsans-lining-subset-li.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: EconSansLin;
+  font-style: italic;
+  font-weight: 300;
+  src:
+    url('/assets/econsans-lining-subset-li-it.woff2') format('woff2'),
+    url('/assets/econsans-lining-subset-li-it.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: EconSansLin;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url('/assets/econsans-lining-subset-rg.woff2') format('woff2'),
+    url('/assets/econsans-lining-subset-rg.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: EconSansLin;
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url('/assets/econsans-lining-subset-it.woff2') format('woff2'),
+    url('/assets/econsans-lining-subset-it.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: EconSansLin;
+  font-style: normal;
+  font-weight: 500;
+  src:
+    url('/assets/econsans-lining-subset-md.woff2') format('woff2'),
+    url('/assets/econsans-lining-subset-md.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: EconSansLin;
+  font-style: italic;
+  font-weight: 500;
+  src:
+    url('/assets/econsans-lining-subset-md-it.woff2') format('woff2'),
+    url('/assets/econsans-lining-subset-md-it.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: EconSansLin;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url('/assets/econsans-lining-subset-bd.woff2') format('woff2'),
+    url('/assets/econsans-lining-subset-bd.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: EconSansLin;
+  font-style: italic;
+  font-weight: 700;
+  src:
+    url('/assets/econsans-lining-subset-bd-it.woff2') format('woff2'),
+    url('/assets/econsans-lining-subset-bd-it.woff') format('woff');
+}
+
+/**
  * Milo TE smallcaps
 */
 
